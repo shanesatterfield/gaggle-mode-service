@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "src/*": ["./src/*"],
+      "test/*": ["./test/*"]
+    },
+    "rootDirs": ["./src", "./test"],
+    "sourceMap": true,
+    "outDir": "./dist",
+    "sourceRoot": "./src",
+    "preserveConstEnums": true,
+    "isolatedModules": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": ["src", "test"],
+  "exclude": ["infrastructure", "node_modules"]
+}
